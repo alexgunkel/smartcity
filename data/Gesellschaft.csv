@@ -1,4 +1,7 @@
-Stadt,Jahr,"Öffentlichkeitsbeteiligung", "FabLabs und CoWorking", "Digital-Szene", "Open-Data-Plattform","Geo-Datenplattform", "Lokaler Handel und Startup-Hubs", "Weitere Pilotprojekte"
-Dresden, 2021, 94.87, 75.00, 100.00, 88.89, 96.67, 100.00, 20.00
-Leipzig, 2021, 66.67, 100.00, 93.33, 100.00, 100.00, 100.00, 10.00
-Chemnitz,2021, 83.33, 62.50, 93.33, 83.33, 96.67, 100.00, 0.00
+Stadt,Jahr,Platz,Öffentlichkeitsbeteiligung, FabLabs und CoWorking, Digital-Szene, Open-Data-Plattform,Geo-Datenplattform, Lokaler Handel und Startup-Hubs, Weitere Pilotprojekte
+Dresden, 2021,3, 94.87, 75.00, 100.00, 88.89, 96.67, 100.00, 20.00
+Dresden, 2022,2, 100.0, 78.8, 100.0, 90.0, 100.0, 100.0, 30.0
+Leipzig, 2021, 4, 66.67, 100.00, 93.33, 100.00, 100.00, 100.00, 10.00
+Leipzig, 2022, 6, 63.3, 99.4, 90.0, 90.0, 100.0, 100.0, 30.0
+Chemnitz,2021, 10, 83.33, 62.50, 93.33, 83.33, 96.67, 100.00, 0.00
+Chemnitz,2022, 21, 83.3, 60.0, 90.0, 75.0, 100.0, 100.0, 0.0

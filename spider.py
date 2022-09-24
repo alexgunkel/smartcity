@@ -1,6 +1,6 @@
+#!/usr/bin/env python3
 import csv
 import plotly.express as px
-import plotly.graph_objects as go
 import pandas as pd
 import argparse as ap
 from pathlib import Path
@@ -22,8 +22,10 @@ def read_file(arguments: Arguments):
         del row["Stadt"]
         year = row["Jahr"]
         del row["Jahr"]
+        # place = row["Platz"]
+        del row["Platz"]
         fig = build_figure(row)
-        fig.write_image('./build/' + arguments.theme + '_' + city + '_' + year + '.jpg')
+        fig.write_image('./build/' + arguments.theme + '_' + city.strip() + '_' + year.strip() + '.jpg')
 
 
 def build_figure(row):

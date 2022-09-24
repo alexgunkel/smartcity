@@ -1,4 +1,7 @@
-"Stadt","Jahr",""Verwaltung", "IT und Kommunikation", "Energie und Umwelt", "Mobilität", "Gesellschaft"
-Dresden,2021,75.29, 67.18, 47.15, 76.48, 91.34
-Leipzig,2021,62.62, 56.33, 45.22, 67.71, 90.48
-Chemnitz,2021,43.07, 41.36, 41.79, 30.19, 82.41
+Stadt,Jahr,Platz,Verwaltung, IT und Kommunikation, Energie und Umwelt, Mobilität, Gesellschaft
+Dresden,2021, 6,75.29, 67.18, 47.15, 76.48, 91.34
+Dresden,2022, 3, 79.7, 77.2, 68.4, 87.6, 95.0
+Leipzig,2021, 14, 62.62, 56.33, 45.22, 67.71, 90.48
+Leipzig,2022, 22, 76.5, 62.9, 56.1, 66.0, 90.9
+Chemnitz,2021, 53,43.07, 41.36, 41.79, 30.19, 82.41
+Chemnitz,2022, 56, 54.5, 54.6, 45.6, 19.5, 80.7

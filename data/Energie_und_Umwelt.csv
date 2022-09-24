@@ -1,4 +1,7 @@
-Stadt,Jahr,"Intelligente Straßenbeleuchtung", "Energielösungen", "Smart Waste", "Anteil E-Fahrzeuge","Ladeinfrastruktur", "Emissionsarme Busse", "Weitere Pilotprojekte"
-Dresden, 2021,75.00, 57.64, 0.00, 17.50, 80.23, 36.67, 30.00
-Leipzig, 2021,37.50, 70.24, 0.00, 31.20, 45.94, 70.00, 30.00
-Chemnitz,2021,12.50, 84.65, 0.00, 12.50, 83.61, 70.00, 0.00
+Stadt,Jahr,Platz,Intelligente Straßenbeleuchtung, Energielösungen, Smart Waste, Anteil E-Fahrzeuge,Ladeinfrastruktur, Emissionsarme Busse, Weitere Pilotprojekte
+Dresden, 2021,33,75.00, 57.64, 0.00, 17.50, 80.23, 36.67, 30.00
+Dresden, 2022,14,100.0,41.9,100.0,10.0,77.0,72.3,30.0
+Leipzig, 2021,41,37.50, 70.24, 0.00, 31.20, 45.94, 70.00, 30.00
+Leipzig, 2022,40,45.0,58.1,100.0,38.1,53.9,58.0,0.0
+Chemnitz,2021,46,12.50, 84.65, 0.00, 12.50, 83.61, 70.00, 0.00
+Chemnitz,2022,60,0.0,69.0,75.0,12.5,80.1,50.4,0.0

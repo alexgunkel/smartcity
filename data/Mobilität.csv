@@ -1,4 +1,7 @@
-Stadt,Jahr,Parken, Smartes Verkehrsmanagement, Smarter ÖPNV, Sharing-Angebote, Multimodalität,Letzte Meile Logistik, Weitere Pilotprojekte
-Dresden, 2021,100.00, 100.00, 86.36, 57.59, 87.88, 20.00, 30.00
-Leipzig, 2021,87.50, 37.50, 81.82, 71.87, 87.88, 40.00, 20.00
-Chemnitz,2021,50.00, 12.50, 54.55, 53.13, 0.00, 0.00, 20.00
+Stadt,Jahr,Platz,Parken, Smartes Verkehrsmanagement, Smarter ÖPNV, Sharing-Angebote, Multimodalität,Letzte Meile Logistik, Weitere Pilotprojekte
+Dresden, 2021,6,100.00, 100.00, 86.36, 57.59, 87.88, 20.00, 30.00
+Dresden, 2022,6,100.0,100.0,70.0,83.7,87.9,80.0,30.0
+Leipzig, 2021,18,87.5, 37.5, 81.82,71.87, 87.88, 40.00, 20.00
+Leipzig, 2022,27,87.5, 37.5, 60.0, 90.7, 100.0, 40.0, 0.0
+Chemnitz,2021,71,50.00, 12.50, 54.55, 53.13, 0.00, 0.00, 20.00
+Chemnitz,2022,81,50.0,12.5,0.0,60.5,0.0,0.0,0.0

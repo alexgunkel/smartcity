@@ -1,4 +1,7 @@
-"Stadt","Jahr","Interne Prozesse", "Payment", "Online-Terminvergabe", "Online-Dienstleistungen","Webseite und Social Media", "Bevölkerungsanliegen", "Serviceportal", "Weitere Pilotprojekte"
-Dresden,2021,75.00, 96.30, 63.27, 27.18, 87.50, 83.97, 85.19, 35.00
-Leipzig,2021,75.00, 37.04, 100.00, 15.53, 51.97, 83.33, 74.07, 23.33
-Chemnitz,2021,87.50, 18.52, 38.78, 34.95, 76.57, 29.49, 7.41, 23.33
+Stadt,Jahr,Platz,Interne Prozesse, Payment, Online-Terminvergabe, Online-Dienstleistungen,Webseite und Social Media, Bevölkerungsanliegen, Serviceportal, Weitere Pilotprojekte
+Dresden,2021, 12,75.00, 96.30, 63.27, 27.18, 87.50, 83.97, 85.19, 35.00
+Dresden,2022, 16, 75.0, 100.0, 81.6, 39.3, 72.6, 90.0, 92.0, 35.0
+Leipzig,2021,40,75.00, 37.04, 100.00, 15.53, 51.97, 83.33, 74.07, 23.33
+Leipzig,2022,27,87.5,76.0,100.0,46.7,67.2,85.0,100.0,0.0
+Chemnitz,2021,75,87.50, 18.52, 38.78, 34.95, 76.57, 29.49, 7.41, 23.33
+Chemnitz,2022,72,100.0,16.0,38.8,46.7,64.7,15.4,84.0,35.0
