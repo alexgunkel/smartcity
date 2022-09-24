@@ -32,7 +32,8 @@ def build_figure(row):
     df = pd.DataFrame(dict(
         r=map(float, row.values())
     ))
-    fig = px.line_polar(df, r='r', theta=row.keys(), line_close=True, range_r=[0, 100])
+    fig = px.line_polar(df, r='r', theta=row.keys(), line_close=True, range_r=[0, 100], color_discrete_sequence=['#00abae'],
+                        template="seaborn",)
     return fig
 
 
