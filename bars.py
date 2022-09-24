@@ -19,30 +19,25 @@ class Mission:
 
 
 def main():
-    barWidth = 0.25
+    barWidth = 0.15
     m = Mission()
     res = extract_listings(m)
     categories = res.keys()
     cities = list(res.values())[0].keys()
     to_plot = dict()
-    for city in cities:
-        to_plot[city] = []
-        for c in categories:
-            to_plot[city].append(res[c][city]["2022"])
-
-    pDD = np.arange(len(categories))
-    pLE = [x + barWidth for x in pDD]
-    pCH = [x + barWidth for x in pLE]
-
-    plt.bar(pDD, to_plot["Dresden"], color='#ff0000', width=barWidth, edgecolor='white', label='Dresden')
-    plt.bar(pLE, to_plot["Leipzig"], color='#00ff00', width=barWidth, edgecolor='white', label='Leipzig')
-    plt.bar(pCH, to_plot["Chemnitz"], color='#0000ff', width=barWidth, edgecolor='white', label='Chemnitz')
-
-    plt.xlabel('Kategorie')
-    plt.xticks([r + barWidth for r in range(len(categories))], categories)
+    for cat in categories:
+        to_plot[cat] = []
+        for city in cities:
+            to_plot[cat].append(81-int(res[cat][city]["2022"]))
+    X = np.arange(len(cities))
+    idx = 0
+    for cat in categories:
+        plt.bar(X + (idx*barWidth), to_plot[cat], width=barWidth, edgecolor='white', label=cat)
+        idx += 1
+    plt.xlabel('Stadt')
+    plt.xticks(X + (barWidth*len(categories)/2), cities)
     plt.legend()
     plt.show()
-    print(to_plot)
 
 
 def extract_listings(m):
